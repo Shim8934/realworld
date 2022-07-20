@@ -17,10 +17,6 @@ public class User {
 
     private Profile profile;
 
-    private String username;
-
-    private String bio;
-
     public User(Long seq, Email email, Profile profile, String password) {
         checkArgument(email != null, "email must be provided.");
         checkArgument(profile != null, "profile must be provided.");
@@ -51,7 +47,6 @@ public class User {
     public String getPassword() {
         return password;
     }
-
 
     @Override
     public boolean equals(Object o) {
