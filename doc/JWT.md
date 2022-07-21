@@ -1,6 +1,6 @@
 # JWT 정리
 
-# 참고 링크
+## 참고 링크
 
 1. [https://meetup.toast.com/posts/239](https://meetup.toast.com/posts/239)
 2. [https://velopert.com/2389](https://velopert.com/2389)
